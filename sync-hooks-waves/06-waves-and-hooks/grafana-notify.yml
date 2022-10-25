@@ -5,6 +5,7 @@ metadata:
   name: grafana-notify-1
   labels:
     codefresh.io/cert: grafana-job  
+  annotations:
     argocd.argoproj.io/sync-wave: -10
     argocd.argoproj.io/hook: Sync
 spec:
